@@ -10,7 +10,7 @@ const config = {
       precompress: false
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/<your-repo-name>' : ''
+      base: process.env.NODE_ENV === 'production' ? '/z' : ''
     },
     trailingSlash: 'always'
   }
